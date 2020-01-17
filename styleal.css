@@ -1,0 +1,87 @@
+* {
+  margin:0px auto;
+}
+
+body{
+      font-family:arial;
+      font-size: 14px;
+    }
+
+    #canvas {
+      position:relative;
+      width:960px;
+      height:700px; 
+      margin: 140px auto; 
+      border:1px solid silver;  
+        
+    }
+
+    #header {
+      font-size: 20px;
+      padding: 20px; 
+      
+    }
+
+    #menu {
+      background-color: #008000; 
+    }
+
+    #menu ul {
+      list-style:none;
+      margin:0;
+      padding:0;   
+    }
+
+    #menu ul li.utama {
+      /*untuk membuat kesamping*/
+      display: inline-table; 
+    }
+
+    /*saat di arahkan berganti warna*/
+    #menu ul li:hover {
+      background-color: #8FBC8F; 
+    }
+
+    #menu ul li a{
+      display:block;
+      text-decoration:none;
+      line-height: 40px;
+      padding: 0 10px;
+      color:#fff;   
+    }
+
+    .utama ul {
+      display:none;
+      position: absolute;
+      z-index:5;  
+    }
+
+    .utama:hover ul {
+      display: block;
+    }
+
+    .utama ul li {
+      display: block;
+      background-color:#32CD32;
+      width: 140px;
+    }
+
+    #isi {
+      height:1000px;
+      width: 100%; 
+      padding-bottom:60px;  
+      overflow: auto; 
+    }
+
+    .footer {
+      height:50px;
+      line-height:50px;  
+      text-align: center;
+      padding-left: 10px;
+      background-color: #C0C0C0;
+      width:960px;
+      position:absolute;
+      bottom:0px;  
+    }
+
+    

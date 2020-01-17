@@ -1,0 +1,44 @@
+body{
+    background: #8FBC8F;
+}
+.form-login{
+    margin-top: 13%;
+}
+.outter-form-login {
+    padding: 10%;
+    background: #FFFFFF;
+    position: relative;
+    border-radius: 10px;
+}
+.logo-login {
+    position: absolute;
+    font-size: 60px;
+    background: #21A957;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    top: -60px;
+    border-radius: 60%;
+    left: 40%;
+}
+.inner-login .form-control {
+    background: #FFFFFF;
+}
+h3.title-login {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.forget {
+    margin-top: 20px;
+    color: #ADADAD;
+}
+.btn-custom-green {
+    background: #21A957;
+    color: #fff;
+    height:100%;
+    font-size:20px;   
+}
+
+.alert {
+	font-size: 15px;
+}
